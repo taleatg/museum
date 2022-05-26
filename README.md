@@ -1,1 +1,1 @@
-# [museum]{https://taleatg.github.io/museum/}
+# [museum](https://taleatg.github.io/museum/)
