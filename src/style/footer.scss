@@ -1,0 +1,321 @@
+.footer {
+  background: #000000;
+}
+
+.footer-container {
+  display: flex;
+  padding: 84px 20px 27px 20px;
+}
+
+.footer-logo {
+  display: flex;
+  color: #FFFFFF;
+  margin-right: 141px;
+}
+
+.footer-navigation__column {
+  display: flex;
+}
+
+.footer-navigation {
+  margin-right: 379px;
+}
+
+.navigation-item {
+  display: flex;
+  width: 360px;
+  height: 150px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.element-navigation {
+  font-family: "Roboto Thin";
+  font-size: 22px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+li.element-navigation {
+  padding: 0 172px 0 0;
+  height: 50px;
+}
+
+.social {
+  border: 1px #666666 solid;
+  border-radius: 50%;
+  margin: 77px 25px 0 0;
+  transition: 1s;
+  height: 46px;
+}
+
+.social:nth-child(5) {
+  margin-right: 0;
+}
+
+.social:hover {
+  border-color: #9D8665;
+}
+
+.footer-line {
+  height: 3px;
+  background: #666666;
+}
+
+.site-imprint {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 49px 20px 48px 20px;
+  font-family: "Roboto Thin";
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.footer-end {
+  display: flex;
+}
+
+.year {
+  margin: 0 458px 0 0;
+}
+
+.rs-school {
+  margin-right: 370px;
+}
+
+.site-link, .social-icon, .icon {
+  transition: 1s;
+}
+
+.site-link:hover {
+  color: #9D8665;
+}
+
+.social-icon:hover path {
+  fill: #9D8665;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .footer-container {
+    padding-top: 62px;
+  }
+
+  .footer-logo {
+    margin-right: 40px;
+  }
+
+  li.element-navigation {
+    padding: 0 122px 0 0;
+  }
+
+  .footer-navigation {
+    margin-right: 45px;
+  }
+
+  .site-imprint {
+    padding-bottom: 46px;
+  }
+
+  .year {
+    margin: 0 258px 0 0;
+  }
+
+  .rs-school {
+    margin-right: 153px;
+  }
+
+  .social {
+    margin: 82px 25px 0 0;
+  }
+
+  .social:last-child {
+    margin: 82px 0 0 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer-container {
+    padding-top: 49px;
+  }
+
+  .footer-logo {
+    margin: 1px 100px 0 0;
+  }
+
+  li.element-navigation {
+    padding: 0 164px 0 0;
+    height: 46px;
+  }
+
+  li.element-navigation:nth-child(4), li.element-navigation:nth-child(5), li.element-navigation:nth-child(6), {
+    padding: 0;
+  }
+
+  .footer-navigation__column {
+    flex-direction: column;
+  }
+
+  .footer-navigation {
+    .navigation {
+      font-size: 18px;
+    }
+
+    margin-right: 45px;
+  }
+
+  .site-imprint {
+    max-width: 1024px;
+    padding: 37px 20px 37px 20px;
+  }
+
+  .year {
+    margin: 0 130px 0 0;
+  }
+
+  .rs-school {
+    margin-right: 0;
+  }
+
+  .github {
+    position: absolute;
+    right: 20px;
+  }
+
+  .social, .social:last-child {
+    margin: 16px 25px 12px 0;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 767px) {
+  .footer-container {
+    padding: 40px 20px;
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    margin: 0;
+
+    .logo__name {
+      margin-left: 20px;
+    }
+  }
+
+  li.element-navigation {
+    padding: 0 95px 28px 0;
+    height: 20px;
+  }
+
+  li.element-navigation:nth-child(3), li.element-navigation:nth-child(4) {
+    padding: 0 81px 28px 0;
+  }
+
+  li.element-navigation:nth-child(5), li.element-navigation:nth-child(6) {
+    padding: 0 0 28px 0;
+  }
+
+  .navigation-item {
+    width: 380px;
+    height: 98px;
+    margin-top: 34px;
+  }
+
+  .social {
+    margin: 16px 5px 0 0;
+  }
+
+  .social:last-child {
+    margin-right: 0;
+  }
+
+  .footer-navigation {
+    .navigation {
+      font-size: 16px;
+    }
+
+    margin-right: 0;
+  }
+
+
+  .footer-navigation__column {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .site-imprint {
+    max-width: 767px;
+    font-size: 16px;
+    padding: 37px 20px 42px 20px;
+  }
+
+  .year {
+    margin: 3px 0 0 5px;
+  }
+
+  .rs-school {
+    display: none;
+  }
+
+  .github {
+    position: absolute;
+    right: 20px;
+  }
+}
+
+@media (max-width: 419px) {
+  .footer-logo {
+    margin-right: 35px;
+  }
+
+  .footer-navigation__column {
+    flex-wrap: wrap;
+
+    .footer-navigation {
+      margin: 0;
+      padding-bottom: 70px;
+    }
+
+    .footer_social {
+      position: absolute;
+      right: 15%;
+      margin-top: 250px;
+    }
+
+    li.element-navigation {
+      padding: 0;
+      height: 40px;
+    }
+
+    .navigation-item {
+      width: auto;
+      height: auto;
+      margin-top: 25px;
+    }
+
+    .social {
+      margin: 27px 5px 0 0;
+    }
+  }
+
+  .site-imprint {
+    flex-direction: column-reverse;
+
+    .footer-end {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+
+
+      .rs-school {
+        display: none;
+      }
+
+      .year, .github {
+        margin: 0 0 5px 0;
+      }
+    }
+  }
+}
