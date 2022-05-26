@@ -8,7 +8,6 @@ let ticketType;
 let currentTotal;
 let currentTypeTicket;
 let date;
-let paymentTime;
 let typeInPayment;
 let totalPayment;
 let costCurrentTypeBasic;
@@ -208,5 +207,3 @@ function selectedTime() {
 export {
     ticketsAmount,
 }
-
-

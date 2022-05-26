@@ -1,10 +1,10 @@
-import {isAudioPlay, musicStartAfterIframe} from './fonMusic';
+import {isAudioPlay} from './fonMusic';
 
 let video;
 let toggle;
 let slideContainer;
 let bigPlay;
-let navigathion;
+let navigation;
 let videos;
 let oldLink;
 let oldButton;
@@ -18,14 +18,14 @@ function findVideo() {
     toggle = document.querySelector('.toggle');
     slideContainer = document.querySelector('.slide-navigation');
     bigPlay = document.querySelector('.video-buttons__bigplay');
-    navigathion = slideContainer.querySelectorAll('.navigation');
+    navigation = slideContainer.querySelectorAll('.navigation');
     videos = document.querySelectorAll('.video-iframe');
 
     audio = document.querySelector('#audio');
     musicPlay = document.querySelector('.music-play');
 
 
-    navigathion.forEach((item) => {
+    navigation.forEach((item) => {
         item.addEventListener('click', removeIframe);
     })
 

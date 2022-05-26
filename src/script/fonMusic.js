@@ -1,4 +1,3 @@
-import { initPlayer } from './player';
 import { musicPlay, audio, video } from './sharedConstants';
 import { togglePlay } from './player';
 import { isVideoPlay } from './player';
